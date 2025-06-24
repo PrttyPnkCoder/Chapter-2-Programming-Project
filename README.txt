@@ -9,4 +9,4 @@ This repository holds three independent C++ console app projects, each on its ow
   https://github.com/PrttyPnkCoder/Chapter-2-Programming-Project/tree/EnergyDrink
 
 - **Program3 (Energy Drink Consumption)**  
-https://github.com/PrttyPnkCoder/Chapter-2-Programming-Project/tree/DistancePerTank
+  https://github.com/PrttyPnkCoder/Chapter-2-Programming-Project/tree/DistancePerTank
