@@ -1,7 +1,3 @@
-// OceanLevels.cpp
-// Name: Demetrius Carter
-// IDE: Visual Studio 2022
-
 #include <iostream>
 #include <iomanip>
 
