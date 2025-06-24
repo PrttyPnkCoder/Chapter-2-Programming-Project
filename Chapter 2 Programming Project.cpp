@@ -1,20 +1,19 @@
-// Chapter 2 Programming Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <iomanip>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    const double tankSize = 20.0;   // gallons
+    const double cityMpg = 23.5;
+    const double highwayMpg = 28.9;
+
+    double cityDistance = tankSize * cityMpg;
+    double highwayDistance = tankSize * highwayMpg;
+
+    std::cout << std::fixed << std::setprecision(1);
+    std::cout << "On a full tank in town:    "
+        << cityDistance << " miles.\n";
+    std::cout << "On a full tank on highway: "
+        << highwayDistance << " miles.\n";
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
