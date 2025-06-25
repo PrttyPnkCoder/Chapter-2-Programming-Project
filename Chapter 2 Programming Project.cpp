@@ -1,4 +1,4 @@
-// Description: Calculates and displays how far a car with a 20-gallon gas tank
+// Description: Calculates and displays how far a car with a 20-gallon gas tank can travel in town and on the highway.
 #include <iostream>
 #include <iomanip>
 
