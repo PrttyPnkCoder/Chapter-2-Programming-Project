@@ -1,3 +1,4 @@
+// Description: Calculates and displays how far a car with a 20-gallon gas tank
 #include <iostream>
 #include <iomanip>
 
