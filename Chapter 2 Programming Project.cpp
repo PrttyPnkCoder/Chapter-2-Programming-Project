@@ -1,3 +1,4 @@
+// Description: Calculates how many of 16,500 surveyed customers buy one or more energy drinks per week, and how many of those prefer citrus flavor.
 #include <iostream>
 #include <cmath>
 
