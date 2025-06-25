@@ -1,3 +1,4 @@
+// Description: Calculates and prints the ocean’s projected rise (in mm)
 #include <iostream>
 #include <iomanip>
 
